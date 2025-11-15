@@ -7,7 +7,7 @@ const info = document.getElementById("info");
 const ageBtn = document.getElementById("age");
 const emailBtn = document.getElementById("email");
 const phoneBtn = document.getElementById("phone");
-const otherBtn = document.getElementById("other");
+const otherBtn = document.getElementById("getUser");
 
 async function fetchData() {
     let res = await fetch("https://randomuser.me/api/");
